@@ -50,4 +50,5 @@ seednode=51.195.202.193:21777
 #zmqpubhashblock=tcp://0.0.0.0:21780
 EOF
 
+chmod 600 $VDEX_CONFFILE
 echo "Config created at $VDEX_CONFFILE"

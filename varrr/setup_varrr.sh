@@ -51,4 +51,5 @@ seednode=136.243.227.137:20777
 #zmqpubhashblock=tcp://0.0.0.0:20780
 EOF
 
+chmod 600 $VARRR_CONFFILE
 echo "Config created at $VARRR_CONFFILE"

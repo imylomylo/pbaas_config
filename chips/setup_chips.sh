@@ -52,4 +52,5 @@ seednode=51.161.198.160:22777
 #zmqpubhashblock=tcp://0.0.0.0:22780
 EOF
 
+chmod 600 $CHIPS_CONFFILE
 echo "Config created at $CHIPS_CONFFILE"
